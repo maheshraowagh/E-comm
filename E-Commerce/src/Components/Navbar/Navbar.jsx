@@ -54,9 +54,17 @@ const Navbar = ({ cartPage }) => {
                                 <Link to="/AllProducts">
                                     <li onClick={handletoggle} className="mr-5 hover:text-gray-900 cursor-pointer">All Products</li>
                                 </Link>
+
+                                <Link to='/About'>
+                               <li onClick={handletoggle} className="mr-5 hover:text-gray-900 cursor-pointer">About us</li>
+                            </Link>
+
+                            <Link to='/Contact'>
+                            <li onClick={handletoggle} className="mr-5 hover:text-gray-900 cursor-pointer">Contact</li>
+                            </Link>
                                 
-                                <li onClick={handletoggle} className="mr-5 hover:text-gray-900 cursor-pointer">Mens</li>
-                                <li onClick={handletoggle} className="mr-5 hover:text-gray-900 cursor-pointer">Kids</li>
+                                {/* <li onClick={handletoggle} className="mr-5 hover:text-gray-900 cursor-pointer">Mens</li>
+                                <li onClick={handletoggle} className="mr-5 hover:text-gray-900 cursor-pointer">Kids</li> */}
 
                                 <Link to="/Login">
                                     <li onClick={handletoggle}>
