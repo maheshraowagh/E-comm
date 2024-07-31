@@ -33,8 +33,8 @@ const SignUp = () => {
   return (
     <div>
       <div className="relative">
-        <img src={ecom} alt="" className="object-cover object-center h-[600px] lg:h-[800px] w-full" />
-        <div className="w-full h-[600px] lg:h-[800px] bg-black absolute top-0 left-0 opacity-50"></div>
+        <img src={ecom} alt="" className="object-cover object-center h-[600px] lg:h-[820px] w-full" />
+        <div className="w-full h-[600px] lg:h-[820px] bg-black absolute top-0 left-0 opacity-50"></div>
         <div className="container px-5 py-24 mx-auto flex justify-center items-center absolute top-0 left-0 w-full h-full">
           <div className="w-full max-w-md lg:max-w-lg bg-white rounded-lg p-8 lg:p-12 flex flex-col relative z-10 shadow-md justify-center">
             <h2 className="text-black mb-5 text-2xl lg:text-3xl font-medium title-font">Sign up</h2>
