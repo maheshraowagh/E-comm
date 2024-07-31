@@ -58,7 +58,7 @@ const AllProducts = ({ AddToCart }) => {
 
     return (
         <>
-            <div className="mt-5 text-center text-xl">
+            <div className="mt-5 text-center px-4 md:px-1 text-xl">
                 <input
                     className="border-2 px-4 py-3 text-black rounded-3xl w-full sm:w-auto"
                     type="text"
